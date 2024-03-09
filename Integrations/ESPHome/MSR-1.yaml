@@ -293,6 +293,9 @@ binary_sensor:
     has_still_target:
       name: Radar Still Target
       id: radar_has_still_target
+      filters:
+        - delayed_on: 30s
+        - delayed_off: 30s
   ## Set Up Radar Zones Based On Distance
   - platform: template
     name: "Radar Zone 1 Occupancy"
