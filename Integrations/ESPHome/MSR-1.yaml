@@ -288,8 +288,8 @@ binary_sensor:
       name: Radar Target
       id: radar_has_target
       filters:
-        - delayed_on: 30s
-        - delayed_off: 10s
+        - delayed_on: 15s
+        - delayed_off: 5s
     has_moving_target:
       name: Radar Moving Target
       id: radar_has_moving_target
